@@ -202,7 +202,7 @@ def filters(df1):
 # ----------- IMPORTANDO DATASET -----------------------------
 #=============================================================
 
-df_raw = pd.read_csv('dados\train.csv')
+df_raw = pd.read_csv('dados/train.csv')
 
 df1 = clean_code(df_raw)
 
