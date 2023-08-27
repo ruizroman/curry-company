@@ -235,7 +235,7 @@ st.set_page_config(
 
 
 # ---logo---
-logo_path = 'images\logo.jfif'
+logo_path = 'logo.jfif'
 logo_image = Image.open( logo_path )
 
 st.sidebar.image(
