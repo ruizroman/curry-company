@@ -211,7 +211,7 @@ def filters(df1):
 # ----------- IMPORTANDO DATASET ---------------
 #=============================================================
 
-df_raw = pd.read_csv('F:\\Ruiz\\comunidade-ds\\ciclo-basico\\ftc\\dados\\train.csv')
+df_raw = pd.read_csv('dados\train.csv')
 
 
 #=============================================================
