@@ -321,12 +321,12 @@ with tab1:
             with st.container():
                 
                 st.markdown( 'Avaliação Média e Desvio Padrão por tipo de tráfego' )
-                st.dataframe(
-                    rating_mean_std_by_traffic(df1),
-                    hide_index=True,
-                    column_config={
-                        'Road_traffic_density': 'Tráfego'}
-                )
+                #st.dataframe(
+                #    rating_mean_std_by_traffic(df1),
+                #    hide_index=True,
+                #    column_config={
+                #        'Road_traffic_density': 'Tráfego'}
+                #)
                 
             
             # Container 2 da segunda coluna
