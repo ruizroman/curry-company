@@ -115,7 +115,7 @@ def worst_vehicle_condition(df1):
 #---A avaliação médida por entregador---
 
 def deliverer_ratings_mean(df1):
-    return df1.groupby( 'Delivery_person_ID' ).Delivery_person_Ratings.mean().round(2)
+    return df1.groupby( 'Delivery_person_ID' ).Delivery_person_Ratings.mean().round(2).reset_index()
 
 #---A avaliação média e o desvio padrão por tipo de tráfego---
 
