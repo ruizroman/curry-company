@@ -321,24 +321,24 @@ with tab1:
             with st.container():
                 
                 st.markdown( 'Avaliação Média e Desvio Padrão por tipo de tráfego' )
-               # st.dataframe(
-               #     rating_mean_std_by_traffic(df1),
-               #     hide_index=True,
-               #     column_config={
-               #         'Road_traffic_density': 'Tráfego'}
-               # )
+                st.dataframe(
+                    rating_mean_std_by_traffic(df1),
+                    hide_index=True,
+                    column_config={
+                        'Road_traffic_density': 'Tráfego'}
+                )
                 
             
             # Container 2 da segunda coluna
             with st.container():
                 
                 st.markdown( 'Avaliação Média e Desvio Padrão por condição climática' )
-                #st.dataframe(
-                #    rating_mean_std_by_weather(df1),
-                #    hide_index=True,
-                #    column_config={
-                #        'Weatherconditions': 'Clima'}
-                #)
+                st.dataframe(
+                    rating_mean_std_by_weather(df1),
+                    hide_index=True,
+                    column_config={
+                        'Weatherconditions': 'Clima'}
+                )
                 
         st.markdown("""---""")
         
