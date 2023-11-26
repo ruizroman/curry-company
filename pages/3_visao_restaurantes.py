@@ -294,7 +294,7 @@ df1= filters(df1)
 
 st.header( 'Marketplace - Visão Restaurantes' )
 
-tab1, tab2, tab3 = st.tabs( ['Visao Gerencial', '_', '_'] )
+tab1, = st.tabs( ['Visao Gerencial'] )
 
 with tab1:
     
