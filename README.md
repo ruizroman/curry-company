@@ -1,2 +1,2 @@
 # curry-company
-thiis repository contains files and scripts to build food delivery company dashboard
+this repository contains files and scripts to build food delivery company dashboard
